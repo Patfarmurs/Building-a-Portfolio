@@ -1,3 +1,343 @@
-.set-up {
-  color: brown;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+nav img {
+  max-width: 100%;
+}
+
+header {
+  padding: 20px 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav span {
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.headline {
+  height: auto;
+  width: 100%;
+  background-image: url("./img/desktop-hero-image.svg");
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headline-content {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 64px 0;
+}
+
+.headline-title {
+  color: #172b4d;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  margin: 0;
+}
+
+.headline-content p {
+  color: #172b4d;
+  padding: 0 250px;
+  font-size: 20px;
+  margin: 58px 0 120px 0;
+  font-weight: 300;
+}
+
+.social-media ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 15px;
+  color: #505f79;
+}
+
+.disabled {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  justify-content: center;
+}
+
+.disabled button {
+  border: 1px solid #b4b4b4;
+  background-color: white;
+  padding: 6px 6px 2px 6px;
+  border-radius: 32px;
+}
+
+.card-container {
+  padding: 0 200px;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+.project-card {
+  width: 327px;
+  border-radius: 8px;
+  background: #ebf0ee;
+  border: 1px solid #d0d9d4;
+}
+
+.descriptions {
+  position: relative;
+  margin-top: 252px;
+  border-radius: 8px;
+  padding: 16px;
+  height: 222px;
+  background: #fff;
+}
+
+.card-title {
+  width: 295px;
+  height: 57px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #3a4a42;
+}
+
+.grid-container {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+  grid-template-columns: auto auto auto auto;
+}
+
+.item {
+  border-radius: 4px;
+  padding: 12px 8px;
+  background: #ebf0ee;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+
+  /* background: #36b37f; */
+}
+
+.see-project-btn {
+  padding: 12px;
+  background: #36b37f;
+  border-radius: 4px;
+  position: absolute;
+  width: 122px;
+  left: calc(50% - 122px / 2 + 0.5px);
+  bottom: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  border: transparent;
+  color: #fff;
+}
+
+.divider {
+  background: #36b37f;
+  height: 4px;
+  border-radius: 5px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.divider-container {
+  margin: 20px 0;
+}
+
+.card-holder-container {
+  height: 352px;
+  border-radius: 8px;
+  display: flex;
+  background: #ebf0ee;
+  border: 1px solid #c1c7d0;
+  margin-top: 24px;
+
+  /* display: grid; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-tags-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  padding: 12 8px;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 95%;
+  justify-content: center;
+}
+
+.tags-item {
+  border-radius: 4px;
+  padding: 12px 8px;
+  background: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #36b37e;
+  margin: 3px;
+}
+
+.holder-title {
+  font-size: 24px;
+  text-align: center;
+  color: #344563;
+  line-height: 32px;
+}
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 40px;
+  background-position: bottom;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+
+  /* background-image: url("./img/about-me-bg.svg"); */
+}
+
+.about-myself img:last-of-type {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+}
+
+.about-myself img:first-of-type {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  right: 0;
+}
+
+.about-myself button {
+  background: #36b37f;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  padding: 12px;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.about-myself h1 {
+  margin-bottom: 68;
+  font-size: 40px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.about-myself p {
+  text-align: center;
+  font-size: 20px;
+  color: #42526e;
+  font-style: normal;
+  line-height: 32px;
+  padding: 0 250px;
+  margin: 24px 12px;
+  font-weight: 300;
+}
+
+.last-title-container {
+  font-size: 40;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* .language {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+} */
+
+.language {
+  padding: 0 200px;
+  gap: 10px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+
+/* on mobile */
+
+@media only screen and (max-width: 768px) {
+  .card-container {
+    padding: 0 20px;
+    grid-template-columns: auto;
+  }
+
+  .language {
+    padding: 0 20px;
+    grid-template-columns: auto;
+  }
+
+  .headline {
+    background-image: url("./img/mobile-hero-image.svg");
+  }
+
+  .headline-content p {
+    padding: 0 20px;
+  }
+
+  .about-myself p {
+    padding: 0;
+  }
 }
