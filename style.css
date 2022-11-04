@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap");
 
 body {
   margin: 0;
@@ -97,6 +97,7 @@ nav span {
 }
 
 .project-card {
+  display: flex;
   width: 327px;
   border-radius: 8px;
   background: #ebf0ee;
@@ -131,6 +132,13 @@ nav span {
   gap: 8px;
   margin-top: 16px;
   grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  padding-left: 1%;
+  width: 100%;
+}
+
+.itemBox{
+  display: flex;
 }
 
 .item {
@@ -194,11 +202,12 @@ nav span {
   justify-content: space-around;
   flex-direction: row;
   align-items: center;
-  padding: 12 8px;
+  padding: 12px 8px;
+  padding-left: 2px;
   flex-wrap: wrap;
   margin: 0;
   list-style: none;
-  width: 95%;
+  width: 90%;
 }
 
 .tags-item {
@@ -284,8 +293,8 @@ nav span {
   font-weight: 700;
   font-style: normal;
   text-align: center;
-  line-height: 52px;
   color: #172b4d;
+  margin: 8%;
 }
 
 .about-me {
@@ -327,3 +336,4 @@ nav span {
     padding: 0;
   }
 }
+ 
