@@ -335,3 +335,68 @@ nav span {
     padding: 0;
   }
 }
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-email-li {
+  list-style: none;
+}
+
+.input-email {
+  width: 70vw;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d0d9d4;
+}
+
+.form-container {
+  padding: 0;
+  margin: 0;
+}
+
+.text-area {
+  width: 70vw;
+  padding: 10px;
+  border-color: #36b37f;
+}
+
+.form-btn {
+  border: none;
+  background-color: #36b37f;
+  border-radius: 4px;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.link-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-address {
+  font-family: 'Inter', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+}
