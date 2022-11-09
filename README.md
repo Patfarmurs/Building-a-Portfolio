@@ -36,6 +36,11 @@ GitBash
 - Twitter: @MukulayengeP
 - LinkedIn: LinkedIn
 
+👤 Author2
+
+GitHub: @safari14
+Twitter: @safaridaniel
+LinkedIn: LinkedIn
 
 ## 🤝 Contributing
 
