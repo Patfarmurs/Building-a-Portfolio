@@ -9,6 +9,7 @@ body {
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
   --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
   --color-primary: #36b37f;
+  --color-primary: #227452;
 }
 
 body {
@@ -71,6 +72,12 @@ button:hover {
 
 button:active {
   background: #008552;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .container {
@@ -305,6 +312,7 @@ button:active {
 
 .card-work > .card-tags > li {
   background: #ebf0ee;
+  background: #ebf0ee;
   font-size: 12px;
   padding: 0.5em;
   margin: 0 0.5em;
@@ -496,6 +504,12 @@ button:active {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
   }
+
+  .works h1:first-child {
+    padding: 1em;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
 }
 
 .about-myself {
@@ -505,6 +519,12 @@ button:active {
   padding: 2em;
 }
 
+.about-myself {
+  margin-top: 2em;
+  background: url(./img/illustration\ 1-\ about\ me-mobile.svg) no-repeat 100% 0%, url(./img/illustration\ 2-about\ me\ mobile.svg) no-repeat 0 300px;
+  text-align: center;
+  padding: 2em;
+}
 .about-myself p {
   font-size: 20px;
   color: #42526e;
@@ -587,6 +607,35 @@ button:active {
   align-items: center;
   justify-content: center;
 }
+}
+
+.categorie-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .about-myself {
+    background: url(./img/about_me_desktop_left.svg) no-repeat 0% 20%, url(./img/about_me_desktop_rigth.svg) no-repeat 100% 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .categorie-about-myself {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 90%;
+  }
+}
+
+.action {
+  display: none;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
 
 /*
 .action {
@@ -598,7 +647,7 @@ button:active {
   color: #172b4d;
   font-weight: 600;
   font-size: 17px;
-
+}
   /*
   justify-content: center;
   align-items: center;
@@ -617,6 +666,12 @@ button:active {
   align-items: center;
   background: url(./img/illustration-1-contact-form-desktop.svg) no-repeat 100% 90%;
   padding: 2em 5em;
+}
+
+form {
+  margin-top: 2em;
+}
+
 }
 
 form {
@@ -728,7 +783,6 @@ footer::after {
     color: #172b4d;
     font-weight: 600;
     font-size: 17px;
-
     /*
     justify-content: center;
     align-items: center;
@@ -794,15 +848,3 @@ footer::after {
     align-self: flex-start;
   }
 }
-
-  
- 
- 
- 
-  
- 
- 
-
-  
-
-  
