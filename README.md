@@ -32,7 +32,7 @@ GitBash
 - GitHub: @Patfarmurs
 - Twitter: @MukulayengeP
 - LinkedIn: LinkedIn
-- https://patfarmurs.github.io/Building-a-Portfolio/
+-My online-portfolio: https://patfarmurs.github.io/Building-a-Portfolio/
 
 👤 Author2
 
