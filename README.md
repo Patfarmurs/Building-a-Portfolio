@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-Portfolio and mobile first finish
+Portfolio applicatio deploy
 > Description the project.
 Building my proffessional Portfolio
 
@@ -32,6 +32,7 @@ GitBash
 - GitHub: @Patfarmurs
 - Twitter: @MukulayengeP
 - LinkedIn: LinkedIn
+-My online-portfolio: https://patfarmurs.github.io/Building-a-Portfolio/
 
 👤 Author2
 
