@@ -166,7 +166,7 @@ button:active {
 }
 
 .headline {
-  background: #fff url(./img/header-illsutration-mobile.svg) no-repeat;
+  background: #fff url(./img/mobile-hero-image.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
