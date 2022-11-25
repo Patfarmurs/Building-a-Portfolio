@@ -73,7 +73,7 @@ const populateFields = () => {
 
 populateFields();
 form.onchange = populateFields;
-/* const errMsgEmail = document.querySelector('small'); */
+const errMsgEmail = document.querySelector('small');
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hidden');
   headerNavMobile.classList.remove('hidden');
@@ -97,4 +97,16 @@ linkAbout.addEventListener('click', () => {
 linkContact.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   menuBtn.classList.remove('hidden');
+});
+
+// form validation
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const regex = /[A-Z]/;
+  if (!regex.test(email.value)) {
+    form.submit();
+  } else {
+    errMsgEmail.innerText = 'Please the content of email field has to be in lower case';
+  }
 });

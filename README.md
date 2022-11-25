@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-Portfolio applicatio deploy
+validate contact form
 > Description the project.
-Building my proffessional Portfolio
+Adding basic javaScript for form validation
 
 ## Built With
-Basic HTML & CSS
+Basic HTML & CSS & JavaScript
 - Major languages
 - Frameworks
 - Technologies used
