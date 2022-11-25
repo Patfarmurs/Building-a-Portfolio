@@ -98,7 +98,7 @@ button:active {
 }
 
 .header-nav-mobile {
-  position: absolute;
+  position: fixed;
   top: 0%;
   right: 0%;
   display: flex;
@@ -120,6 +120,12 @@ button:active {
   margin: 0.5em 0.5em;
   align-self: flex-end;
   cursor: pointer;
+}
+
+.btn-close-nav {
+  position: relative;
+  top: 2rem;
+  right: 1rem;
 }
 
 .header-nav-mobile > img {
@@ -166,7 +172,7 @@ button:active {
 }
 
 .headline {
-  background: #fff url(./img/header-illsutration-mobile.svg) no-repeat;
+  background: #fff url(./img/mobile-hero-image.svg) no-repeat;
   background-size: 100%;
   overflow: hidden;
 }
