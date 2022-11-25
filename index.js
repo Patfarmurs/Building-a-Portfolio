@@ -73,7 +73,7 @@ const populateFields = () => {
 
 populateFields();
 form.onchange = populateFields;
-/* const errMsgEmail = document.querySelector('small'); */
+const errMsgEmail = document.querySelector('small');
 menuBtn.addEventListener('click', () => {
   menuBtn.classList.add('hidden');
   headerNavMobile.classList.remove('hidden');
