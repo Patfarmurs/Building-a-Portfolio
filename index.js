@@ -125,6 +125,7 @@ const dataCards = [
       tech3: 'JavaScript',
       tech4: 'html',
     },
+    linkVersion: 'https://www.google.com/',
     linkSource: 'https://patfarmurs.github.io/Building-a-Portfolio/',
   },
   {
@@ -142,6 +143,7 @@ const dataCards = [
       tech3: 'JavaScript',
       tech4: 'html',
     },
+    linkVersion: 'https://www.google.com/',
     linkSource: 'https://patfarmurs.github.io/Building-a-Portfolio/',
   },
   {
@@ -159,6 +161,7 @@ const dataCards = [
       tech3: 'JavaScript',
       tech4: 'html',
     },
+    linkVersion: 'https://www.google.com/',
     linkSource: 'https://patfarmurs.github.io/Building-a-Portfolio/',
   },
 ];
