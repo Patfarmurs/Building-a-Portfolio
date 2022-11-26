@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [your_project name] <a name="Building-a-Portfolio"></a>
 
 > Describe your project in 1 or 2 sentences.
 
