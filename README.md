@@ -1,11 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
 REQUIRED SECTIONS:
 - Table of Contents
 - About the Project
@@ -18,9 +12,6 @@ REQUIRED SECTIONS:
 - Show your support
 - Acknowledgements
 - License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
@@ -57,31 +48,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project name] <a name="Building-a-Portfolio"></a>
+# 📖 [Building-a-Portfolio] <a name="Building-a-Portfolio"></a>
 
 > Describe your project in 1 or 2 centence.
 This project is about buiding my professional portfolio to show what I've be learning and what I can do.
-**[your_project__name]** is Building a Portfolio.
+**[Building a Portfolio]** is .
 
 ## 🛠 Built With <"Basic HTML, CSS and JavaScript"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
 
 <details>
 <summary>Database</summary>
@@ -94,11 +68,6 @@ This project is about buiding my professional portfolio to show what I've be lea
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,11 +109,7 @@ Clone this repository to your desired folder:
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
+ 
 ### Install
 
 Install this project with:
@@ -208,15 +173,7 @@ Example:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
