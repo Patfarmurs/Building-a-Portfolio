@@ -193,8 +193,10 @@ const cardWorkDetailsMobile = (index) => `
                   <img src="./img/github_white-icon.svg" alt="github icon">
                   </a>
          </div>
+         <script src="index.js"></script>
      </article>
-     
+     `;
+
 for (let i = 0; i < arrayBtnPopup.length; i++) {
   arrayBtnPopup[i].addEventListener('click', () => {
     const cardWork = document.createElement('div');
