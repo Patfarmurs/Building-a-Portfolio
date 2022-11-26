@@ -4,7 +4,7 @@ const btnCloseNav = document.querySelector('.btn-close-nav');
 const linkPortfolio = document.querySelector('.link-portfolio');
 const linkAbout = document.querySelector('.link-about');
 const linkContact = document.querySelector('.link-contact');
-/* const arrayBtnPopup = document.querySelectorAll('.btn-popup'); */
+const arrayBtnPopup = document.querySelectorAll('.btn-popup');
 const form = document.querySelector('.form-input');
 const [fullName, firstName, lastName, email, textArea] = form.elements;
 const mediaqueryList = window.matchMedia('(max-width: 768px)');
@@ -98,8 +98,6 @@ linkContact.addEventListener('click', () => {
   headerNavMobile.classList.add('hidden');
   menuBtn.classList.remove('hidden');
 });
-
-// form validation
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
