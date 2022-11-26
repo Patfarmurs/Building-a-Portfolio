@@ -200,7 +200,7 @@ const cardWorkDetailsMobile = (index) => `
      </article>
      `;
 
-for (let i = 0; i < arrayBtnPopup.length; i+=1) {
+for (let i = 0; i < arrayBtnPopup.length; i +=1) {
   arrayBtnPopup[i].addEventListener('click', () => {
     const cardWork = document.createElement('div');
     cardWork.innerHTML = cardWorkDetailsMobile(i);
