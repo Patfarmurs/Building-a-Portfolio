@@ -77,7 +77,7 @@ This project is about buiding my professional portfolio to show what I've be lea
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://patfarmurs.github.io/Building-a-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
