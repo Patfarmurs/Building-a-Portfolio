@@ -9,6 +9,7 @@ body {
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
   --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
   --color-primary: #36b37f;
+
   scroll-behavior: smooth;
 }
 
@@ -527,8 +528,11 @@ button:active {
 }
 
 .about-myself p {
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   color: #42526e;
+  line-height: 28px;
 }
 
 .categorie-about-myself {
@@ -608,7 +612,6 @@ button:active {
   align-items: center;
   justify-content: center;
 }
-
 
 /*
 .action {
@@ -755,7 +758,6 @@ footer::after {
     color: #172b4d;
     font-weight: 600;
     font-size: 17px;
-    
 
     /*
     justify-content: center;
