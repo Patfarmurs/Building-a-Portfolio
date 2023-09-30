@@ -9,6 +9,7 @@ body {
   --shadow: 0 2px 10px -1px rgba(0, 0, 0, 0.8);
   --shadow-accent: 0 2px 50px -1px rgba(0, 0, 0, 0.8);
   --color-primary: #36b37f;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -210,6 +211,20 @@ button:active {
 
   .header-title {
     padding-top: 3em;
+    animation: pop-up 0.5s ease-out;
+    transform-origin: top;
+  }
+
+  @keyframes pop-up {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 
   .header-nav-desktop {
@@ -594,6 +609,7 @@ button:active {
   justify-content: center;
 }
 
+
 /*
 .action {
   align-items: center;
@@ -723,6 +739,11 @@ footer::after {
     gap: 0.5rem;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #fff; /* Add a background color for visibility */
+    z-index: 1; /* Make sure the menu is on top of other elements */
+    left: 42%;
   }
 
   .action a {
@@ -734,6 +755,7 @@ footer::after {
     color: #172b4d;
     font-weight: 600;
     font-size: 17px;
+    
 
     /*
     justify-content: center;
