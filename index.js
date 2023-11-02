@@ -157,7 +157,7 @@ const dataCards = [
       tech3: 'JavaScript',
       tech4: 'html',
     },
-    linkVersion: 'space-hub-traveller.netlify.app',
+    linkVersion: 'https://space-hub-traveller.netlify.app',
     linkSource: 'https://github.com/Patfarmurs/react-group-project',
   },
 
