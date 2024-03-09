@@ -127,7 +127,7 @@ const dataCards = [
   },
   {
     id: 2,
-    url: './img/latter-days-temple.jpg',
+    url: './img/latter-days-temple.JPG',
     title: 'Fetch Some latter days Temples ',
     description: `Budget App: is a web-based rails application, designed to help users manage their finances and track their expenses. 
     It provides features such as user signup and login functionality to ensure secure access to personal budget information.
