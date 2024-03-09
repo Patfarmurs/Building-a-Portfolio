@@ -127,21 +127,21 @@ const dataCards = [
   },
   {
     id: 2,
-    url: './img/expense-tracker-1.png',
-    title: 'Budget App',
+    url: './img/latter-days-temple.jpg',
+    title: 'Fetch Some latter days Temples ',
     description: `Budget App: is a web-based rails application, designed to help users manage their finances and track their expenses. 
     It provides features such as user signup and login functionality to ensure secure access to personal budget information.
     The application allows users to create and manage categories. 
     Categories represent different types of expenses.`,
 
     tecnologies: {
-      tech1: 'Rubi on rails',
-      tech2: 'css',
-      tech3: 'JavaScript',
-      tech4: 'html',
+      tech1: 'css',
+      tech2: 'JavaScript',
+      tech3: 'html',
+      tech4: '',
     },
-    linkVersion: 'https://my-budget-3al3.onrender.com/',
-    linkSource: 'https://github.com/Patfarmurs/budgetapp',
+    linkVersion: 'https://patfarmurs.github.io/cse121b/w05-task.html',
+    linkSource: 'https://github.com/Patfarmurs/cse121b/tree/feature',
   },
 
   {
