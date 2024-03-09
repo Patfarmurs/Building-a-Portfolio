@@ -129,10 +129,8 @@ const dataCards = [
     id: 2,
     url: './img/latter-days-temple.JPG',
     title: 'Fetch Some latter days Temples ',
-    description: `Budget App: is a web-based rails application, designed to help users manage their finances and track their expenses. 
-    It provides features such as user signup and login functionality to ensure secure access to personal budget information.
-    The application allows users to create and manage categories. 
-    Categories represent different types of expenses.`,
+    description: `Fetch some latter days temples, is an app that fetches photos of the temples of the church of Jesus Chirst of latter days saints
+     from an API and display on UI. The app has a filter function where a user can choose to display temples from a certain area. `,
 
     tecnologies: {
       tech1: 'css',
