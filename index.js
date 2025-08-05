@@ -136,7 +136,7 @@ const dataCards = [
       tech1: 'css',
       tech2: 'JavaScript',
       tech3: 'html',
-      tech4: '',
+      tech4: 'render',
     },
     linkVersion: 'https://patfarmurs.github.io/cse121b/w05-task.html',
     linkSource: 'https://github.com/Patfarmurs/cse121b/tree/feature',
@@ -161,19 +161,19 @@ const dataCards = [
 
   {
     id: 4,
-    url: './img/Book-Store1.png',
-    title: 'React Book Store',
-    description: `React Book Store: is a comprehensive web platform designed to facilitate book browsing and selection. 
-    It allows visitors to explore an extensive collection of books, manage their personal reading lists, and add their preferred books. `,
+    url: './img/screenshot.png',
+    title: 'Time Tracker Dashboard',
+    description: `Time Tracker Dashboard: is a comprehensive web platform designed to facilitate time tracking and management.
+    It allows users to log their work hours, categorize tasks, and generate reports on their productivity.`,
 
     tecnologies: {
-      tech1: 'React',
-      tech2: 'css',
-      tech3: 'JavaScript',
-      tech4: 'html',
+      tech1: 'JavaScript',
+      tech2: 'HTML',
+      tech3: 'CSS',
+      tech4: 'GitHub Page',
     },
-    linkVersion: 'https://react-book-store-7nwr.onrender.com/',
-    linkSource: 'https://github.com/Patfarmurs/react-book-store',
+    linkVersion: 'https://patfarmurs.github.io/time-tracking-dashboard/',
+    linkSource: 'https://github.com/Patfarmurs/time-tracking-dashboard',
   },
 
   {
