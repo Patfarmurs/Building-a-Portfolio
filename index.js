@@ -161,7 +161,7 @@ const dataCards = [
 
   {
     id: 4,
-    url: './img/screenshot.png',
+    url: './img/Time_tracker_dashboard.png',
     title: 'Time Tracker Dashboard',
     description: `Time Tracker Dashboard: is a comprehensive web platform designed to facilitate time tracking and management.
     It allows users to log their work hours, categorize tasks, and generate reports on their productivity.`,
